@@ -11,3 +11,6 @@ gem 'redcarpet', '~> 3.5.0'
 gem 'nokogiri', '~> 1.13.3'
 gem 'sass'
 gem 'webrick'
+
+# Performance-booster for watching directories and fix for livereload.
+gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
